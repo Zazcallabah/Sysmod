@@ -1,0 +1,9 @@
+All code is placed in src/ folder. Build by opening Sysmod.sln in Visual Studio 2008 and choosing the Build Solution option. Test for model verification can be run if the version of Visual studio is Team Edition.
+
+For your convenience a prepared build is placed in bin/ folder.
+
+If you are not used to looking at larger C# projects, all essential code files have been placed in the help/ folder. These will not build, and might differ slightly from the ones in src/ folder, but most of the clutter in src/ folder has been removed. (Comments and basic code structure has been preserved.)
+
+Gathered data and graphs are located in the data/ folder.
+
+Documents refered to in the report are stored in the doc/ folder.

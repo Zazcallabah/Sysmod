@@ -1,0 +1,7 @@
+Om man har 1 kanaler reseverade för handovers:
+
+Average total calls: 581678
+Average blocked calls: 20378
+Avergae dropped calls: 10674
+Percent blocked calls: 3.5033%
+Percent dropped calls: 1.8351%

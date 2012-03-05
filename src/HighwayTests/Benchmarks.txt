@@ -1,0 +1,11 @@
+﻿For 1 000 000 samples, average of 10 runs.
+
++Random.Next()							{00:00:00.0245000}	System.TimeSpan
++Random.Next(int)						{00:00:00.0510000}	System.TimeSpan
++Random.Next(int,int)					{00:00:00.0863000}	System.TimeSpan
++MersenneTwister.Next()					{00:00:00.3973000}	System.TimeSpan
++MersenneTwister.Next(int)				{00:00:00.3537000}	System.TimeSpan
++MersenneTwister.Next(int,int)			{00:00:00.3952000}	System.TimeSpan
++MersenneTwister.NextUInt()				{00:00:00.2502000}	System.TimeSpan
++MersenneTwister.NextUInt(uint)			{00:00:00.3948000}	System.TimeSpan
++MersenneTwister.NextUInt(uint,uint)	{00:00:00.3852000}	System.TimeSpan

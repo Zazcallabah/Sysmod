@@ -1,0 +1,6 @@
+The call duration is mean is roughly 210 seconds.
+The speed mean is about 25 m/s.
+
+This means that a call will travel on average 25m/s*210s=5.3 km. Since the triangular distribution tapers out towards the highway end, and actually stops at 76.5 km, the number of calls that have to loop around the highway is negliable. (i.e. of the very few calls that are set to start at even the very end of the highway, most won't even reach the highway end.)
+
+A run of the program with a counter inserted in the function that moves the call from the end of the highway to the beginning verifies this assumption. Out of 50850 calls made in a simulation run, only 373 had to transfer from the end to the beginning.
